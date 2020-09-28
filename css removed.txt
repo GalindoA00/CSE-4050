@@ -13,3 +13,20 @@
 }
 
 last
+
+
+
+
+ <p>Machine Learning can be sub-categorized into three different methods of learning : Supervised learning analyzes historical data to predict new outcomes. For example, predicting property prices. Unsupervised learning looks for data patterns by using statistical analysis. Reinforcement learning operates with a dynamic model that uses trial and error to constantly improve performance. For example, stock trading. It is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. The way it enables itself to self-develop is by having the ability to access data to learn for themselves through trial and error. Or in other words “Punishments and Rewards”. Ultimately, machine learning algorithms use historical/past data as inputs to predict new output values.  
+</p>
+
+
+<p>An algorithm is a step-by-step demonstration that is formulated for problem-solving. Algorithms can be widely used in various areas, computer programming, mathematics, and daily lives. Simple recursive algorithms, Backtracking algorithms, Divide and conquer algorithms, Dynamic programming algorithms, Greedy algorithms, Branch and bound algorithms, Brute force algorithms, Randomized algorithms. But applying algorithms in computer science heavily depends on the types of data structures that would best fit. Even though there are different types of algorithms and data structures. All algorithms follow the same exact procedure to formulate the best fit algorithm.
+
+Step 1: Obtain a description of the problem. This step is much more difficult than it appears.
+
+Step 2: Analyze the problem
+Step 3: Develop a high-level algorithm
+Step 4: Refine the algorithm by adding more detail
+Step 5: Review the algorithm.
+</p>
