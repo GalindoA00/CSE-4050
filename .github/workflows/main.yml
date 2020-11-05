@@ -12,8 +12,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  # This workflow contains a single job called "firebase-deploy"
+  firebase-deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -21,6 +21,16 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@master
+        with: 
+          node-version: '10.x' 
+      - run: npm install
+      - run: npm run build:prod
+      - uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env: 
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
