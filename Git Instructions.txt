@@ -8,6 +8,6 @@ git add "filename"
 
 or git add --all
 
-git commit 'First Commit'
+git commit -m 'First Commit'
 
 git push origin master
