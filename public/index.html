@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <title></title>
+	<link rel="stylesheet" type="text/css" href="ProjectProtofolio.css"></head>
+</head>
+<body>
+
+  
+<div class="main">
+
+<div class="navbar">
+
+  <div class="dropdown">
+    <button class="dropbtn">More
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/00518/cse4050/CSE-4050/public/ProfilePortfolio.html">PROFILE</a>
+      <a href="file:///C:/Users/00518/cse4050/CSE-4050/public/index.html">PROJECTS</a>
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+<h1>PROJECTS</h1>
+
+<hr>
+
+
+
+<!--Project-Grid-->
+
+
+  
+
+  <div class="column">
+    <div class="content">
+      <img src="MachineLearning.png" alt="Machine Learning" style="width:100%;max-width:580px;">
+      <h3>Machine Learning Projects</h3>
+	<button type="button">See more</button>
+	
+	<!--<a href="#"> See More </a>-->
+	
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="Algorithms.png" alt="Algorithms" style="width:100%;max-width:580px;">
+      <h3>Applying algorithms</h3>
+      <button type="button">See more</button>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="WebDesign.jpg" alt="Web Design" style="width:100%;max-width:580px;"/>
+      <h3>Web Design</h3>
+      <button type="button">See more</button>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="GameDevelopment.jpg" alt="Game Developement" style="width:100%;max-width:580px;">
+      <h3>Game Developement</h3>
+      <button type="button">See more</button>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="AugumentandVirtualReality.jpg" alt="Augument and Virtual Reality" style="width:41.66%;max-width:1200px;">
+  <h3>AR/VR</h3>
+  <button type="button">See more</button>
+</div>
+
+<div class="row1">
+  <div class="column1">
+	<div class="image-gallery">
+    <img src="linkedin.png" alt="LinkedIn" class="img1" style="width:2.5%;max-width:20px;"/>
+	<img src="github-logo.png" alt="GitHub" class="img1" style="width:2.5%;max-width:20px;"/>
+	</div>
+   </div>
+
+   <script type = "text/javascript"> 
+	 const buttons = document.querySelectorAll('button');
+	 buttons.forEach(btn => {
+		btn.addEventListener('click', function(e){
+		let x = e.clientX - e.target.offsetLeft;
+		let y = e.clientY - e.target.offsetTop;
+		
+		let ripples = document.createElement('span');
+		//ripples.style.left = x + 'px';
+		//ripples.style.top = y + 'px';
+		this.appendChild(ripples);
+
+		setTimeOut(()=>{
+			ripples.remove()
+		},1000);
+		 })
+	})
+	</script>
+</div>
+
+   
+ 
+
+
+  
+  
+
+<!-- END -->
+</div>
+
+</body>
+</html>
+
+<!--<section>
+	<img src= "Inspiration laptop.jpg" id="ilp"
+	<h2 id="text">Inspire</h2>
+</section>
+<script type="text/javascript">
+	let ilp = document.getElementById("ilp");
+	let text = document.getElementById("text");
+
+	window.addEventListener('scroll', function(){
+		ilp.style.top = value * 0.5 + 'px';
+		text.style.top = value * 1 + 'px';
+	})
+</script>-->
